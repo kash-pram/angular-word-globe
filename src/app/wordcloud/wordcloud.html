@@ -1,0 +1,9 @@
+<div class="container">
+    <canvas #canvas></canvas>
+    <div class="controls">
+    <button (click)="toggleRotation()">
+        {{ isRotating ? 'Pause' : 'Play' }}
+    </button>
+    <button (click)="randomizeColors()">Randomize Colors</button>
+    </div>
+</div>
